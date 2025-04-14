@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # === CONFIGURE YOUR API KEY & MONGODB URI ===
-genai.configure(api_key="AIzaSyCN0m7WYw9yjLxhTDfFGT-vDqrpTD0x6ko")
+genai.configure(api_key="YOUR-API-KEY-HERE")
 mongo_uri = "mongodb+srv://flaskuser:flaskpassword123@cluster0.ffnaamw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Connect to MongoDB Atlas
